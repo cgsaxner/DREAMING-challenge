@@ -1,6 +1,9 @@
 # don't upload built containers
 *.tar.gz
 
+# don't upload images
+*.mha
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

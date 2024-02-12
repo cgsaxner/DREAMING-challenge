@@ -39,7 +39,10 @@ This is an example algorithm for the [DREAMING challenge](https://dreaming.grand
 ## Inputs and outputs
 
 ### Inputs
-* Each testing scene and corresponding mask is stored on grand-challenge.org as a multi-image .mha file. Examples are provided in the [test image](test/input/images/synthetic-surgical-scenes/) and [test mask](test/input/images/synthetic-surgical-scenes-masks/) folders.
+* Each testing scene and corresponding mask is stored on grand-challenge.org as a multi-image .mha file. You can download examples to run this container here:
+  * [Example input images](https://files.icg.tugraz.at/d/11894e89f6394c549f79/)
+  * [Example masks](https://files.icg.tugraz.at/d/e76b6d1afaa94f5fa4fd/)
+  * Place the .mha files in the [test image](test/input/images/synthetic-surgical-scenes/) and [test mask](test/input/images/synthetic-surgical-scenes-masks/) folders, respectively.
 * The files have the shape `[num_frames, height, width, channels]`, where `channels` is 3 for input scenes, and 1 for input masks.
 * The function `load_image_file_as_array` in `helper.py` shows how to read input files and returns them UINT8 numpy arrays of images in the range [0, 255].
 * Feel free to extend this function to fit the inputs expected by your algorithm.

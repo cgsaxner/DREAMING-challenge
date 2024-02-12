@@ -1,0 +1,1 @@
+Successfully read some_resouce.txt!

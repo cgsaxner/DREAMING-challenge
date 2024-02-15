@@ -1,4 +1,4 @@
-# DREAMING challenge
+# DREAMING Inpainting challenge
 
 This is the official repository for the [ISBI 2024](https://biomedicalimaging.org/2024/) **Diminished Reality for Emerging Applications in Medicine through Inpainting (DREAMING)** challenge. 
 

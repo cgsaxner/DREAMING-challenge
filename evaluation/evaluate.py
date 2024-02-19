@@ -1,21 +1,7 @@
 """
-The following is a simple example evaluation method.
 
-It is meant to run within a container.
+This will start the evaluation, reads from /input and outputs to /output
 
-To run it locally, you can call the following bash script:
-
-  ./test_run.sh
-
-This will start the evaluation, reads from ./test/input and outputs to ./test/output
-
-To export the container and prep it for upload to Grand-Challenge.org you can call:
-
-  docker save example-evaluation-preliminary-development-phase | gzip -c > example-evaluation-preliminary-development-phase.tar.gz
-
-Any container that shows the same behavior will do, this is purely an example of how one COULD do it.
-
-Happy programming!
 """
 import json
 from glob import glob

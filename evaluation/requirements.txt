@@ -1,0 +1,5 @@
+SimpleITK
+numpy
+tqdm
+torchmetrics
+torch-fidelity

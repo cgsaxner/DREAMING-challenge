@@ -1,0 +1,100 @@
+[
+    {
+        "pk": "5061323c-f5c8-423e-87ed-7aaf0b49183e",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "input_scene_0092.mha"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "synthetic-surgical-scenes",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/synthetic-surgical-scenes"
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "mask_scene_0092.mha"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "synthetic-surgical-scenes-masks",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/synthetic-surgical-scenes-masks"
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "6c0da39e-2117-4da4-94dd-ba5e2f8188b7.mha"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "inpainted-surgical-scenes",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/inpainted-synthetic-surgical-scenes"
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2023-11-29T10:31:25.691799Z",
+        "completed_at": "2023-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "724e01ec-9a7b-447c-a43d-f63242871e01",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "input_scene_0096.mha"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "synthetic-surgical-scenes",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/synthetic-surgical-scenes"
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "mask_scene_0096.mha"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "synthetic-surgical-scenes-masks",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/synthetic-surgical-scenes-masks"
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "75904266-551a-4985-85d0-8d414151780b.mha"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "inpainted-surgical-scenes",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/inpainted-synthetic-surgical-scenes"
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2023-11-29T10:31:25.691799Z",
+        "completed_at": "2023-11-29T10:31:50.691799Z"
+    }
+]
